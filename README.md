@@ -1,6 +1,7 @@
-RendererStats.js
-====================
+# three.rendererstats
 
-It is a three.js extension to display realtime informations about ```THREE.WebGLRenderer```.
+Provide stats about the WebGL renderer of [three.js](https://github.com/mrdoob/three.js) : `THREE.WebGLRenderer`.
 
-It is released under MIT license.
+## License
+
+Licensed under the MIT license.
