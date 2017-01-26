@@ -5,7 +5,7 @@
  */
 
 /**
- * @brief Provide information about THREE.WebGLRenderer
+ * @brief Provide stats about the WebGL renderer of three.js
  */
 var RendererStats = function () {
 	// Create a main container
