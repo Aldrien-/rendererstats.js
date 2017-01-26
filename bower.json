@@ -1,6 +1,0 @@
-{
-    "name": "rendererstats",
-    "main": "rendererstats.js",
-    "ignore" : ["README.md"],
-    "private" : true
-}
