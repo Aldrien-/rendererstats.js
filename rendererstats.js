@@ -1,7 +1,7 @@
 /**
  * @author mrdoob / http://mrdoob.com/
  * @author jetienne / http://jetienne.com/
- * @author Alexandre Lemire
+ * @author FragColor / Alexandre Lemire
  */
 
 /**
