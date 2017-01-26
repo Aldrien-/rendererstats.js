@@ -1,0 +1,26 @@
+{
+  "name": "three.rendererstats",
+  "version": "1.0.0",
+  "description": "Provide stats about the WebGL renderer of three.js",
+  "main": "rendererstats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FragColor/three.rendererstats.git"
+  },
+  "keywords": [
+    "renderer",
+    "stats",
+    "three",
+    "three.js",
+    "WebGLRenderer"
+  ],
+  "author": "FragColor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FragColor/three.rendererstats/issues"
+  },
+  "homepage": "https://github.com/FragColor/three.rendererstats#readme"
+}
