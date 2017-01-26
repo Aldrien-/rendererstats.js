@@ -60,18 +60,18 @@ var RendererStats = function () {
 			// Update information
 			var i = 0;
 
-			lines[i++].textContent = "== Memory =====";
-			lines[i++].textContent = "Geometries: " + webGLRenderer.info.memory.geometries;
-			lines[i++].textContent = "Textures: " + webGLRenderer.info.memory.textures;
+			lines[i++].textContent = '== Memory =====';
+			lines[i++].textContent = 'Geometries: ' + webGLRenderer.info.memory.geometries;
+			lines[i++].textContent = 'Textures: ' + webGLRenderer.info.memory.textures;
 
-			lines[i++].textContent = "== Programs ===";
-			lines[i++].textContent = "Programs: " + webGLRenderer.info.programs.length;
+			lines[i++].textContent = '== Programs ===';
+			lines[i++].textContent = 'Programs: ' + webGLRenderer.info.programs.length;
 
-			lines[i++].textContent = "== Render =====";
-			lines[i++].textContent = "Calls: " + webGLRenderer.info.render.calls;
-			lines[i++].textContent = "Vertices: " + webGLRenderer.info.render.vertices;
-			lines[i++].textContent = "Faces: " + webGLRenderer.info.render.faces;
-			lines[i++].textContent = "Points: "	+ webGLRenderer.info.render.points;
+			lines[i++].textContent = '== Render =====';
+			lines[i++].textContent = 'Calls: ' + webGLRenderer.info.render.calls;
+			lines[i++].textContent = 'Vertices: ' + webGLRenderer.info.render.vertices;
+			lines[i++].textContent = 'Faces: ' + webGLRenderer.info.render.faces;
+			lines[i++].textContent = 'Points: '	+ webGLRenderer.info.render.points;
 		}
 	}
 };
