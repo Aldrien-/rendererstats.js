@@ -22,7 +22,7 @@ var RendererStats = function () {
 	// Adds the title container to the main container
 	container.appendChild(title);
 	
-	// Create an dom structure to store information about THREE.WebGLRenderer
+	// Create a dom structure to store information about THREE.WebGLRenderer
 	var lines = [];
 	var length = 10;
 
