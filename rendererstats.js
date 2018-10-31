@@ -24,7 +24,7 @@ var RendererStats = function () {
 
 	// Create a dom structure to store information about THREE.WebGLRenderer
 	var lines = [];
-	var length = 11;
+	var length = 10;
 
 	for(var i = 0; i < length; i++)
 	{
@@ -68,9 +68,8 @@ var RendererStats = function () {
 			lines[i++].textContent = 'Programs: ' + webGLRenderer.info.programs.length;
 
 			lines[i++].textContent = '== Render =====';
-			lines[i++].textContent = 'Frame: ' + webGLRenderer.info.render.frame;
 			lines[i++].textContent = 'Calls: ' + webGLRenderer.info.render.calls;
-			lines[i++].textContent = 'Triangles: ' + webGLRenderer.info.render.triangles;
+			lines[i++].textContent = 'Trian.: ' + webGLRenderer.info.render.triangles;
 			lines[i++].textContent = 'Points: ' + webGLRenderer.info.render.points;
 			lines[i++].textContent = 'Lines: ' + webGLRenderer.info.render.lines;
 		}
