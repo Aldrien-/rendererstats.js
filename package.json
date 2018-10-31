@@ -1,6 +1,6 @@
 {
   "name": "three.rendererstats",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Provide stats about the WebGL renderer of three.js",
   "main": "rendererstats.js",
   "scripts": {

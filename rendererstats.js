@@ -21,10 +21,10 @@ var RendererStats = function () {
 	title.innerHTML = 'WebGLRenderer';
 	// Adds the title container to the main container
 	container.appendChild(title);
-	
+
 	// Create a dom structure to store information about THREE.WebGLRenderer
 	var lines = [];
-	var length = 10;
+	var length = 11;
 
 	for(var i = 0; i < length; i++)
 	{
@@ -68,10 +68,11 @@ var RendererStats = function () {
 			lines[i++].textContent = 'Programs: ' + webGLRenderer.info.programs.length;
 
 			lines[i++].textContent = '== Render =====';
+			lines[i++].textContent = 'Frame: ' + webGLRenderer.info.render.frame;
 			lines[i++].textContent = 'Calls: ' + webGLRenderer.info.render.calls;
-			lines[i++].textContent = 'Vertices: ' + webGLRenderer.info.render.vertices;
-			lines[i++].textContent = 'Faces: ' + webGLRenderer.info.render.faces;
-			lines[i++].textContent = 'Points: '	+ webGLRenderer.info.render.points;
+			lines[i++].textContent = 'Triangles: ' + webGLRenderer.info.render.triangles;
+			lines[i++].textContent = 'Points: ' + webGLRenderer.info.render.points;
+			lines[i++].textContent = 'Lines: ' + webGLRenderer.info.render.lines;
 		}
 	}
 };
