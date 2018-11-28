@@ -38,9 +38,6 @@ var RendererStats = function () {
 		container.appendChild(lines[i]);
 	}
 
-	// Initialize the time of the last refresh
-	var lastRefreshTime = Date.now();
-
 	// Define the public part of the RendererStats object
 	return {
 		// The main dom element
@@ -51,12 +48,6 @@ var RendererStats = function () {
 		 * @param THREE.WebGLRenderer webGLRenderer The webGLRenderer object
 		 */
 		update : function(webGLRenderer) {
-			// Refresh 30 times per second at most
-			if(Date.now() - lastRefreshTime < 1000 / 30) return;
-
-			// Set the time of the last refresh
-			lastRefreshTime = Date.now();
-
 			// Update information
 			var i = 0;
 
